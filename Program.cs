@@ -1,5 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Aprendendo_.NET.Models;
 
+Pessoa p = new Pessoa();
 
-Console.WriteLine("Meu primeiro projeto .NET usando C#");
+p.Nome = "Willian";
+p.Idade = 24;
+p.Apresentar();
