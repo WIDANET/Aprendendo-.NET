@@ -2,4 +2,4 @@
 Console.WriteLine("Hello, World!");
 
 
-Console.WriteLine("Primeiro projeto .NET usando C#");
+Console.WriteLine("Meu primeiro projeto .NET usando C#");
