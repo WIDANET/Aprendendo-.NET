@@ -1,10 +1,23 @@
-﻿
+﻿// *** CONVERSÃO SEGURA  USANDO TRYPARSE***
+
+string a = ("32");
+
+int b = 0;
+
+int.TryParse(a, out b);
+
+Console.WriteLine(b);
+Console.WriteLine("Valor convertido com sucesso!");
+
+
+
+
 
 // *** ORDEM DE OPERADORES ***
 
-double a = 4 / 2 + 2;
+// double a = 4 / (2 + 2);
 
-Console.WriteLine(a);
+// Console.WriteLine(a);
 
 
 
