@@ -13,17 +13,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // // TESTANDO TIPO DE VARIÁVEIS
 
 // string texto = "Olá, seja bem-vindo!";
