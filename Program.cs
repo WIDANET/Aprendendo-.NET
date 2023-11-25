@@ -1,10 +1,11 @@
 ﻿
+// TESTANDO TIPO DE VARIÁVEIS
 
-string texto = "Olá, tudo bem?";
+string texto = "Olá, seja bem-vindo!";
 
 int quantidade = 1;
 
-double altura = 1.82;
+double altura = 1.80;
 
 decimal preco = 1.80M;
 
@@ -12,7 +13,7 @@ bool condicao = true;
 
 Console.WriteLine(texto);
 Console.WriteLine("O valor da variável condição é: " +quantidade);
-Console.WriteLine("O valor da variável altura é: " + altura);
+Console.WriteLine("O valor da variável altura é: " + altura.ToString("0.00"));
 Console.WriteLine("O valor da variável preço é: " + preco);
 Console.WriteLine("O valor da variável condição é: " + condicao);
 
