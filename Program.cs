@@ -1,13 +1,40 @@
-﻿// *** CONVERSÃO SEGURA  USANDO TRYPARSE***
+﻿// *** OPERADORES CONDICIONAIS COM IF/ELSE *** 
 
-string a = ("32");
+int quantidadeEmEstoque = 10;
 
-int b = 0;
+int quantidadeCompra = 48;
 
-int.TryParse(a, out b);
+// bool = variável booleana
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-Console.WriteLine(b);
-Console.WriteLine("Valor convertido com sucesso!");
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade comppra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+if(possivelVenda){
+
+    Console.WriteLine("Venda realizada!");
+}
+else{
+
+    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque!");
+}
+
+
+
+
+
+
+// *** CONVERSÃO SEGURA  USANDO TRYPARSE***
+
+// string a = ("32");
+
+// int b = 0;
+
+// int.TryParse(a, out b);
+
+// Console.WriteLine(b);
+// Console.WriteLine("Valor convertido com sucesso!");
 
 
 
