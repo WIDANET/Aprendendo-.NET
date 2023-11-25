@@ -4,7 +4,7 @@
 
 // USANDO DATA
 
-// using System.Data.Common;
+ // using System.Data.Common;
 
 // DateTime dataAtual = DateTime.Now.AddDays(5);
 
@@ -35,10 +35,11 @@
 
 
 
-// using Aprendendo_.NET.Models;
+ using Aprendendo_.NET.Models;
 
-// Pessoa p = new Pessoa();
+ string Nome = "Willian";
+ int Idade = 24;
 
-// p.Nome = "Willian";
-// p.Idade = 24;
-// p.Apresentar();
+Pessoa p = new Pessoa(Nome, Idade);
+
+ p.Apresentar();

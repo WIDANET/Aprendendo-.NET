@@ -2,10 +2,10 @@
 
 // Fazendo um Cast para converter tipo de varáveis
 
-int a = Convert.ToInt32("26");
+// int a = Convert.ToInt32("26");
 
-Console.WriteLine(a);
+// Console.WriteLine(a);
 
-int b = int.Parse("24");
+// int b = int.Parse("24");
 
-Console.WriteLine(b);
+// Console.WriteLine(b);
