@@ -1,4 +1,20 @@
-﻿// *** SWITCH CASE ***
+﻿// *** OPERADOR NOT (!) ***
+
+// bool choveu = false;
+// bool estaTarde = false;
+
+// if(!choveu && !estaTarde){
+//     Console.WriteLine("Vou pedalar.");
+// }
+// else{
+//     Console.WriteLine("Vou pedalar um outro dia.");
+// }
+
+
+
+
+
+// *** SWITCH CASE ***
 
 // Console.WriteLine("Digite uma letra: ");
 // string letra = Console.ReadLine();
