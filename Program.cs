@@ -1,5 +1,53 @@
 ﻿// *** SWITCH CASE ***
 
+// Console.WriteLine("Digite uma letra: ");
+// string letra = Console.ReadLine();
+
+// switch(letra){
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("É uma vogal");
+//         break;
+//     default:
+//         Console.WriteLine("Não é uma vogal!");
+//         break;
+// }
+
+
+
+// if(letra == "a" ||
+//    letra == "e" ||
+//    letra == "i" ||
+//    letra == "o" ||
+//    letra == "u"){
+//     Console.WriteLine("É uma vogal!");
+//    }
+//    else{
+//     Console.WriteLine("Não é uma vogal!");
+//    }
+
+
+// if(letra == "a"){
+//     Console.WriteLine("Vogal");
+// }
+// else if(letra == "e"){
+//     Console.WriteLine("Vogal");
+// }
+// else if(letra == "i"){
+//     Console.WriteLine("Vogal");
+// }
+// else if(letra == "o"){
+//     Console.WriteLine("Vogal");
+// }
+// else if(letra == "u"){
+//     Console.WriteLine("Vogal");
+// }
+// else{
+//     Console.WriteLine("Não é uma vogal!");
+// }
 
 
 
