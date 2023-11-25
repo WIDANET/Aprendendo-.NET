@@ -1,10 +1,48 @@
 ﻿
 
+// *** ORDEM DE OPERADORES ***
+
+double a = 4 / 2 + 2;
+
+Console.WriteLine(a);
 
 
-// USANDO DATA
 
- // using System.Data.Common;
+
+
+// *** CASTING IMPLÍCITO ***
+
+// int a = 5;
+// double b = a;
+
+// Console.WriteLine(b);
+
+
+
+
+
+// *** FAZENDO CASTING PARA CONVERTER TIPOS DE VARIÁVEIS ***
+
+//  int a = Convert.ToInt32("26");
+
+//  Console.WriteLine(a);
+
+//  int b = int.Parse("24");
+
+//  Console.WriteLine(b);
+
+
+//  string c = a.ToString();
+
+//  Console.WriteLine(c);
+
+
+
+
+
+// *** USANDO DATA ***
+
+// using System.Data.Common;
 
 // DateTime dataAtual = DateTime.Now.AddDays(5);
 
@@ -13,7 +51,8 @@
 
 
 
-// // TESTANDO TIPO DE VARIÁVEIS
+
+// *** TESTANDO TIPOS DE VARIÁVEIS ***
 
 // string texto = "Olá, seja bem-vindo!";
 
@@ -35,11 +74,11 @@
 
 
 
- using Aprendendo_.NET.Models;
+//  using Aprendendo_.NET.Models;
 
- string Nome = "Willian";
- int Idade = 24;
+//  string Nome = "Willian";
+//  int Idade = 24;
 
-Pessoa p = new Pessoa(Nome, Idade);
+// Pessoa p = new Pessoa(Nome, Idade);
 
- p.Apresentar();
+//  p.Apresentar();
