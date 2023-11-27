@@ -1,15 +1,30 @@
 ﻿using Aprendendo_.NET.Models;
 
-// *** LAÇOS DE REPETIÇÃO COM FOR ***
+// *** WHILE ***
 
 int numero = 5;
+int contador = 0;
 
-
-
-for(int i = 0; i <= 10; i++)
+while(contador <= 10)
 {
-    Console.WriteLine($"{numero} x {i} é igual a {numero * i}");
+    Console.WriteLine($"{numero} x {contador} é igual a {numero * contador}");
+    contador++;
 }
+
+
+
+
+
+// *** LAÇOS DE REPETIÇÃO COM FOR ***
+
+// int numero = 5;
+
+
+
+// for(int i = 0; i <= 10; i++)
+// {
+//     Console.WriteLine($"{numero} x {i} é igual a {numero * i}");
+// }
 
 
 
