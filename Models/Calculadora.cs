@@ -53,5 +53,11 @@ namespace Aprendendo_.NET.Models
             double tangente = Math.Tan(radiano);
             Console.WriteLine($"Tangente de {angulo}º é {Math.Round(tangente, 4)}");
         }
+
+        public void RaizQuadrada(double x)
+        {
+           double raiz = Math.Sqrt(x);
+            Console.WriteLine($"Raiz quadrada de {x} é {raiz}");
+        }
     }
 }
