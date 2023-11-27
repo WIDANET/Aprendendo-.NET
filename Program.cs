@@ -9,6 +9,13 @@ while(contador <= 10)
 {
     Console.WriteLine($"{numero} x {contador} é igual a {numero * contador}");
     contador++;
+
+    if(contador == 6)
+    {
+        // INTERROMPENDO FLUXO DE EXECUÇÃO
+        break;
+        
+    }
 }
 
 
