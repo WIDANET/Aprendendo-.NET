@@ -1,4 +1,19 @@
-﻿// *** OPERADOR NOT (!) ***
+﻿using Aprendendo_.NET.Models;
+
+// ***  CHAMANDO A CLASSE CALCULADORA COM OPERADORES ARITIMÉTICOS ** 
+
+ Calculadora Calc = new Calculadora();
+
+ Calc.Somar(10, 30);
+ Calc.Subtrair(10, 50);
+ Calc.Multiplicar(15, 45);
+ Calc.Dividir(2, 2);
+ Calc.Potencia(3, 3);
+
+
+
+
+// *** OPERADOR NOT (!) ***
 
 // bool choveu = false;
 // bool estaTarde = false;
