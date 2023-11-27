@@ -1,16 +1,31 @@
 ﻿using Aprendendo_.NET.Models;
 
+// *** LAÇOS DE REPETIÇÃO COM FOR ***
+
+int numero = 5;
+
+
+
+for(int i = 0; i <= 10; i++)
+{
+    Console.WriteLine($"{numero} x {i} é igual a {numero * i}");
+}
+
+
+
+
+
 // *** RAIZ QUADRADA *** 
 
-Calculadora Calc = new Calculadora();
+// Calculadora Calc = new Calculadora();
 
-Calc.RaizQuadrada(9);
-
-
+// Calc.RaizQuadrada(9);
 
 
 
-// *** INCREMENTO E DECREMENTO
+
+
+// *** INCREMENTO E DECREMENTO ***
 
 // int numeroIncremento = 10;
 
@@ -34,7 +49,7 @@ Calc.RaizQuadrada(9);
 
 
 
-// ***  CHAMANDO A CLASSE CALCULADORA COM OPERADORES ARITIMÉTICOS ** 
+// ***  CHAMANDO A CLASSE CALCULADORA COM OPERADORES ARITIMÉTICOS *** 
 
 //  Calculadora Calc = new Calculadora();
 
