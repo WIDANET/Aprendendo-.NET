@@ -1,22 +1,45 @@
 ﻿using Aprendendo_.NET.Models;
 
+int soma = 0, numero = 0;
+
+do
+{
+    Console.WriteLine("Digite um número (0 para parar): ");
+    numero = Convert.ToInt32(Console.ReadLine());
+    soma += numero;
+
+    if(numero == 0)
+    {
+        Console.WriteLine("Programa encerrado!");
+    }
+    else
+    {
+        Console.WriteLine($"A soma dos números é: {soma}");
+    }
+
+}while(numero != 0);
+
+
+
+
+
 // *** WHILE ***
 
-int numero = 5;
-int contador = 0;
+// int numero = 5;
+// int contador = 0;
 
-while(contador <= 10)
-{
-    Console.WriteLine($"{numero} x {contador} é igual a {numero * contador}");
-    contador++;
+// while(contador <= 10)
+// {
+//     Console.WriteLine($"{numero} x {contador} é igual a {numero * contador}");
+//     contador++;
 
-    if(contador == 6)
-    {
-        // INTERROMPENDO FLUXO DE EXECUÇÃO
-        break;
+//     if(contador == 6)
+//     {
+//         // INTERROMPENDO FLUXO DE EXECUÇÃO
+//         break;
         
-    }
-}
+//     }
+// }
 
 
 
