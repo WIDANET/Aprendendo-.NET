@@ -4,11 +4,17 @@
 
  Calculadora Calc = new Calculadora();
 
- Calc.Somar(10, 30);
- Calc.Subtrair(10, 50);
- Calc.Multiplicar(15, 45);
- Calc.Dividir(2, 2);
- Calc.Potencia(3, 3);
+Calc.seno(30);
+Calc.coseno(30);
+Calc.tangente(30);
+
+
+
+//  Calc.Somar(10, 30);
+//  Calc.Subtrair(10, 50);
+//  Calc.Multiplicar(15, 45);
+//  Calc.Dividir(2, 2);
+//  Calc.Potencia(3, 3);
 
 
 

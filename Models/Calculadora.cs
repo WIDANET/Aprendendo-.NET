@@ -32,5 +32,26 @@ namespace Aprendendo_.NET.Models
             double pot = Math.Pow(x, y);
             Console.WriteLine($"{x}^{y} é igual a: {pot}");
         }
+
+        public void seno(double angulo)
+        {
+            double radiano = angulo * Math.PI / 180;
+            double seno = Math.Sin(radiano);
+            Console.WriteLine($"Seno de {angulo}º é {Math.Round(seno, 4)}");
+        }
+
+         public void coseno(double angulo)
+        {
+            double radiano = angulo * Math.PI / 180;
+            double coseno = Math.Cos(radiano);
+            Console.WriteLine($"Coseno de {angulo}º é {Math.Round(coseno, 4)}");
+        }
+
+         public void tangente(double angulo)
+        {
+            double radiano = angulo * Math.PI / 180;
+            double tangente = Math.Tan(radiano);
+            Console.WriteLine($"Tangente de {angulo}º é {Math.Round(tangente, 4)}");
+        }
     }
 }
