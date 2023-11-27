@@ -1,23 +1,30 @@
 ﻿using Aprendendo_.NET.Models;
 
-int soma = 0, numero = 0;
 
-do
-{
-    Console.WriteLine("Digite um número (0 para parar): ");
-    numero = Convert.ToInt32(Console.ReadLine());
-    soma += numero;
 
-    if(numero == 0)
-    {
-        Console.WriteLine("Programa encerrado!");
-    }
-    else
-    {
-        Console.WriteLine($"A soma dos números é: {soma}");
-    }
 
-}while(numero != 0);
+
+
+
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     Console.WriteLine("Digite um número (0 para parar): ");
+//     numero = Convert.ToInt32(Console.ReadLine());
+    
+//     soma += numero;
+
+//     if(numero == 0)
+//     {
+//         Console.WriteLine("Programa encerrado!");
+//     }
+//     else
+//     {
+//         Console.WriteLine($"A soma dos números é: {soma}");
+//     }
+
+// }while(numero != 0);
 
 
 
