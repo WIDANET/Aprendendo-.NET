@@ -1,12 +1,36 @@
 ﻿using Aprendendo_.NET.Models;
 
+// *** INCREMENTO E DECREMENTO
+
+int numeroIncremento = 10;
+
+Console.WriteLine($"O valor do número é {numeroIncremento}");
+Console.WriteLine($"Incrementando o {numeroIncremento}...");
+
+numeroIncremento++;
+
+Console.WriteLine($"O valor incrementado é: {numeroIncremento}");
+
+int numeroDecremento = 20;
+
+Console.WriteLine($"O valor do número é {numeroDecremento}");
+Console.WriteLine($"Decrementando o {numeroDecremento}...");
+
+numeroDecremento--;
+
+Console.WriteLine($"O valor decrementado é: {numeroDecremento}");
+
+
+
+
+
 // ***  CHAMANDO A CLASSE CALCULADORA COM OPERADORES ARITIMÉTICOS ** 
 
- Calculadora Calc = new Calculadora();
+//  Calculadora Calc = new Calculadora();
 
-Calc.seno(30);
-Calc.coseno(30);
-Calc.tangente(30);
+// Calc.seno(30);
+// Calc.coseno(30);
+// Calc.tangente(30);
 
 
 
