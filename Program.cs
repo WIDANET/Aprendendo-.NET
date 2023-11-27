@@ -1,24 +1,34 @@
 ﻿using Aprendendo_.NET.Models;
 
+// *** RAIZ QUADRADA *** 
+
+Calculadora Calc = new Calculadora();
+
+Calc.RaizQuadrada(9);
+
+
+
+
+
 // *** INCREMENTO E DECREMENTO
 
-int numeroIncremento = 10;
+// int numeroIncremento = 10;
 
-Console.WriteLine($"O valor do número é {numeroIncremento}");
-Console.WriteLine($"Incrementando o {numeroIncremento}...");
+// Console.WriteLine($"O valor do número é {numeroIncremento}");
+// Console.WriteLine($"Incrementando o {numeroIncremento}...");
 
-numeroIncremento++;
+// numeroIncremento++;
 
-Console.WriteLine($"O valor incrementado é: {numeroIncremento}");
+// Console.WriteLine($"O valor incrementado é: {numeroIncremento}");
 
-int numeroDecremento = 20;
+// int numeroDecremento = 20;
 
-Console.WriteLine($"O valor do número é {numeroDecremento}");
-Console.WriteLine($"Decrementando o {numeroDecremento}...");
+// Console.WriteLine($"O valor do número é {numeroDecremento}");
+// Console.WriteLine($"Decrementando o {numeroDecremento}...");
 
-numeroDecremento--;
+// numeroDecremento--;
 
-Console.WriteLine($"O valor decrementado é: {numeroDecremento}");
+// Console.WriteLine($"O valor decrementado é: {numeroDecremento}");
 
 
 
