@@ -16,13 +16,18 @@ for(int i = 0; i < arrayInteiros.Length; i++)
     Console.WriteLine($"Posição Nº {i} - {arrayInteiros[i]}");
 }
 
-Console.WriteLine("PERCORRENDO O ARRAY COM FOREACH");
-int contadorForEach = 0;
-foreach(int valor in arrayInteiros)
-{
-    Console.WriteLine($"Posição Nº {contadorForEach} - {valor}");
-    contadorForEach++;
-}
+
+
+
+
+
+// Console.WriteLine("PERCORRENDO O ARRAY COM FOREACH");
+// int contadorForEach = 0;
+// foreach(int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição Nº {contadorForEach} - {valor}");
+//     contadorForEach++;
+// }
 
 
 
