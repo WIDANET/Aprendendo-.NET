@@ -3,39 +3,39 @@
 
 // *** TRABALHANDO COM LISTAS ***
 
-List<string> listaString = new List<string>();
+// List<string> listaString = new List<string>();
 
-listaString.Add("PE");
-listaString.Add("PB");
-listaString.Add("BA");
-listaString.Add("RN");
+// listaString.Add("PE");
+// listaString.Add("PB");
+// listaString.Add("BA");
+// listaString.Add("RN");
 
 
-// OBSERVANDO BENEFÍCIOS DAS LISTAS: O TAMANHO SE ADPTA À QUANTIDADE DE DADOS INSERIDA, NÃO PECISA INICIAR COM TAMANHO FIXO
+// // OBSERVANDO BENEFÍCIOS DAS LISTAS: O TAMANHO SE ADPTA À QUANTIDADE DE DADOS INSERIDA, NÃO PECISA INICIAR COM TAMANHO FIXO
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-listaString.Add("SE");
+// listaString.Add("SE");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-listaString.Remove("RN");
+// listaString.Remove("RN");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
-Console.WriteLine("PERCORRENDO A LISTA COM FOR");
-for(int i = 0; i < listaString.Count; i++)
-{
-    Console.WriteLine($"Posição Nº {i} - {listaString[i]}");
-}
+// Console.WriteLine("PERCORRENDO A LISTA COM FOR");
+// for(int i = 0; i < listaString.Count; i++)
+// {
+//     Console.WriteLine($"Posição Nº {i} - {listaString[i]}");
+// }
 
-Console.WriteLine("PERCORRENDO A LISTA COM FOREACH");
-int contadorForEach = 0;
-foreach(string item in listaString)
-{
-     Console.WriteLine($"Posição Nº {contadorForEach} - {item}");
-     contadorForEach++;
-}
+// Console.WriteLine("PERCORRENDO A LISTA COM FOREACH");
+// int contadorForEach = 0;
+// foreach(string item in listaString)
+// {
+//      Console.WriteLine($"Posição Nº {contadorForEach} - {item}");
+//      contadorForEach++;
+// }
 
 
 
