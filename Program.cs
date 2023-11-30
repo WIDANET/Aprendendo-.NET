@@ -1,12 +1,26 @@
 ﻿using Aprendendo_.NET.Models;
  //...
 
+// *** TRABALHANDO COM LISTAS ***
+
 List<string> listaString = new List<string>();
 
 listaString.Add("PE");
 listaString.Add("PB");
 listaString.Add("BA");
+listaString.Add("RN");
 
+// OBSERVANDO BENEFÍCIOS DAS LISTAS: O TAMANHO SE ADPTA À QUANTIDADE DE DADOS INSERIDA, NÃO PECISA INICIAR COM TAMANHO FIXO
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Add("SE");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("RN");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 Console.WriteLine("PERCORRENDO A LISTA COM FOR");
 for(int i = 0; i < listaString.Count; i++)
