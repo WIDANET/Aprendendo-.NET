@@ -1,22 +1,57 @@
 ﻿using Aprendendo_.NET.Models;
  //...
 
- // *** INICIANDO ARRAYS ***
+List<string> listaString = new List<string>();
 
-int[] arrayInteiros = new int[3];
+listaString.Add("PE");
+listaString.Add("PB");
+listaString.Add("BA");
 
-arrayInteiros[0] = 72;
-arrayInteiros[1] = 64;
-arrayInteiros[2] = 50;
 
-Console.WriteLine("PERCORRENDO O ARRAY COM FOR");
-
-for(int i = 0; i < arrayInteiros.Length; i++)
+Console.WriteLine("PERCORRENDO A LISTA COM FOR");
+for(int i = 0; i < listaString.Count; i++)
 {
-    Console.WriteLine($"Posição Nº {i} - {arrayInteiros[i]}");
+    Console.WriteLine($"Posição Nº {i} - {listaString[i]}");
+}
+
+Console.WriteLine("PERCORRENDO A LISTA COM FOREACH");
+int contadorForEach = 0;
+foreach(string item in listaString)
+{
+     Console.WriteLine($"Posição Nº {contadorForEach} - {item}");
+     contadorForEach++;
 }
 
 
+
+
+
+ // *** INICIANDO ARRAYS ***
+
+// int[] arrayInteiros = new int[3];
+
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] = 50;
+
+// // *** COPIANDO UM ARRAY PARA OUTRO *** 
+
+// int[] arrayInteirosDobrados = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrados, arrayInteiros.Length);
+
+
+// Console.WriteLine("PERCORRENDO O ARRAY COM FOR");
+
+// for(int i = 0; i < arrayInteiros.Length; i++)
+// {
+//     Console.WriteLine($"Posição Nº {i} - {arrayInteiros[i]}");
+// }
+
+
+
+// DOBRANDO O TAMNHANDO DO ARRAY COM RESIZE
+
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length + 2);
 
 
 
