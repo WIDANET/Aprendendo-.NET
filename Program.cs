@@ -9,7 +9,7 @@ listaString.Add("PE");
 listaString.Add("PB");
 listaString.Add("BA");
 listaString.Add("RN");
-listaString.Add("RJ");
+// listaString.Add("RJ");
 
 // OBSERVANDO BENEFÍCIOS DAS LISTAS: O TAMANHO SE ADPTA À QUANTIDADE DE DADOS INSERIDA, NÃO PECISA INICIAR COM TAMANHO FIXO
 
